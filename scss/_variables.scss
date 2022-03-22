@@ -1,0 +1,88 @@
+$colorOne: lightcyan; 
+$colortwo: white;
+$colorThree: steelblue;
+$colorFour: dimgray;
+$colorFive: lightsteelblue;
+$colorSix: lightslategrey; 
+$colorSeven: silver;
+$colorEight: lightcyan;
+$colorNine: black;
+$transparentColorone: rgba(220, 220, 220, 0.3);
+$bgColor: slategray;
+$font: 'Varela Round';
+
+body{
+	font-family: $font;
+}
+
+ul{
+	li{
+		list-style-type: none;
+		font-size: 1rem;
+		margin: 1rem;
+	}
+}
+
+header, footer{
+	background-color: $bgColor;
+}
+
+.index-encabezado{
+	color: $colortwo;
+	h1{
+		font-size: 3.5rem;
+	}
+
+	h2{
+		font-size: 1.5rem;
+	}
+}
+
+.index-card{
+	margin: 0rem;
+	padding: 1rem;
+}
+
+
+.us-text{
+	.us-item{
+		color: $colorSix;
+		font-size: 7rem;
+	}
+
+	span{
+		color: $colorFive;
+	}
+
+	.mainUs-itemtwo{
+		color: $colortwo;
+		font-size: 1.2rem;
+	}
+}
+
+.review-item, .review-itemtwo, .helpcenter-encabezado-two{
+	color: $colortwo;
+}
+
+.main-review{
+	.review-img{
+		padding-bottom: 2rem;
+	}
+
+	.review-itemtwo{
+		padding-top: 2rem;
+	}
+}
+
+.helpcenter-songbox{
+	padding-top: 1.5rem;
+	padding-bottom: 6rem;
+}
+
+.imgs-socialmedia{
+	padding: 5rem;
+}
+
+.socialmedia-text{
+	color: $colortwo;
+}

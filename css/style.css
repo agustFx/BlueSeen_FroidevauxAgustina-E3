@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+body {
+  font-family: "Varela Round"; }
+
+ul li {
+  list-style-type: none;
+  font-size: 1rem;
+  margin: 1rem; }
+
+header, footer {
+  background-color: slategray; }
+
+.index-encabezado {
+  color: white; }
+  .index-encabezado h1 {
+    font-size: 3.5rem; }
+  .index-encabezado h2 {
+    font-size: 1.5rem; }
+
+.index-card {
+  margin: 0rem;
+  padding: 1rem; }
+
+.us-text .us-item {
+  color: lightslategrey;
+  font-size: 7rem; }
+
+.us-text span {
+  color: lightsteelblue; }
+
+.us-text .mainUs-itemtwo {
+  color: white;
+  font-size: 1.2rem; }
+
+.review-item, .review-itemtwo, .helpcenter-encabezado-two {
+  color: white; }
+
+.main-review .review-img {
+  padding-bottom: 2rem; }
+
+.main-review .review-itemtwo {
+  padding-top: 2rem; }
+
+.helpcenter-songbox {
+  padding-top: 1.5rem;
+  padding-bottom: 6rem; }
+
+.imgs-socialmedia {
+  padding: 5rem; }
+
+.socialmedia-text {
+  color: white; }
+
+.navbar-collapse {
+  justify-content: flex-end; }
+  .navbar-collapse .navbar-nav .active > .nav-link {
+    color: lightcyan; }
+  .navbar-collapse .navbar-nav .nav-link {
+    color: white; }
+
+.index-body {
+  background-image: url(../assets/img/bg-5.JPEG); }
+
+.us-body {
+  background-image: url(../assets/img/bg-4.JPEG); }
+
+.review-body {
+  background-image: url(../assets/img/bg-7.JPEG); }
+
+.helpcenter-body {
+  background-image: url(../assets/img/bg-11.JPEG); }
+
+.socialmedia-body {
+  background-image: url(../assets/img/bg-12.JPEG); }
+
+.index-body, .us-body, .review-body, .helpcenter-body, .socialmedia-body {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.helpcenter-encabezadoA, .helpcenter-encabezadoB, .helpcenter-encabezadoC {
+  color: lightslategrey;
+  font-size: 5rem; }
+
+.helpcenter-encabezadoB {
+  color: lightsteelblue; }
+
+.helpcenter-encabezadoC {
+  color: silver; }
+
+.boton, .botonenviar, .botonreset {
+  background-color: silver;
+  color: black;
+  padding: 15px 32px;
+  margin: 0.5rem;
+  font-size: 16px;
+  border-radius: 15px;
+  float: left;
+  border: none; }
+
+.botonenviar {
+  background-color: lightsteelblue; }
+
+.botonreset {
+  background-color: dimgray; }
+
+h1, h2, .mainUs-itemtwo, label, span {
+  text-shadow: black 0.1em 0.1em 0.2em; }
+
+.main-index, .main-us, .main-review, .main-helpcenter, .main-socialmedia {
+  padding: 3rem;
+  margin: 0; }
+
+@media (max-width: 768px) {
+  .logo {
+    width: 14rem; }
+  ul li {
+    margin: 0rem; }
+  .img-index {
+    width: 20rem; }
+  .index-encabezado h1 {
+    font-size: 1rem; }
+  .index-encabezado h2 {
+    font-size: 0.8rem; }
+  .boton, .botonenviar, .botonreset {
+    background-color: none;
+    color: black;
+    font-size: 16px;
+    border-radius: none;
+    float: left;
+    border: none; }
+  .main-us {
+    margin: 0;
+    padding: 0.5rem; }
+  .us-item, .us-itemspecial {
+    font-size: 1rem; }
+  .helpcenter-encabezadoA, .helpcenter-encabezadoB, .helpcenter-encabezadoC, .helpcenter-encabezadoB, .helpcenter-encabezadoC {
+    font-size: 1.5rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.3rem; }
+  .helpcenter-songbox {
+    padding-bottom: 3rem; }
+  .encabezadotwo-item {
+    font-size: 1.5rem; } }
+
+footer {
+  padding: 1rem; }
+
+.footertext {
+  color: white; }
+
+.footeritem {
+  margin: 1rem; }
